@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    background-color: red;
+    height: 523px;
+    width : 450px;
+    text-align: center;
+    text-transform: uppercase;
+    /* text-decoration:white wavy underline; */
+    /* line-height: 32.1px;
+    font-size: 0rem; */
+    font-style: oblique 45deg;
+    
+}
+
+/* practice 4 */
+
+.navbar {
+    height :31px;
+    background-color:aqua;
+    color:black;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+ul li {
+    list-style: none;
+}
+.right {
+    height : 70vh;
+    width:50%;
+    display: inline-block;
+    background-color:red;
+}
+.left {
+    height : 70vh;
+    width:50%;
+    display: inline-block;
+    background-color:green;
+}
+.center {
+    height: 25px;
+    /* width:100%; */
+    text-align: center;
+    font-size:10px;
+    background-color:blanchedalmond;
+    color:black bold;
+    padding:10px;
+}
+
+/* Practice 3 */
+
+.box1 {
+    height: 420px;
+    width : 280px;
+    background-color: orange;
+    color: black;
+    border: 2px solid red;
+}
+.box2 {
+    height: 240px;
+    width : 100%;
+    background-color: blueviolet;
+    color: white;
+    border: 4px solid black;
+    box-sizing: border-box;
+}
+.box3 {
+    height : 120px;
+    width : 100%;
+    background-color: yellowgreen;
+    color: black;
+    border: 4px solid red;
+    border-radius: 4px 5px 2px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practice Center DIV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .parent {
+            background: red;
+            /* Vh is nothing but viewport height  */
+            height: 100vh;
+            width: 100vw;
+            /* Display property which used/aligned for parent will make child also to the property of flex. */
+            display: flex;
+            /* Here justify content is aligned based on the display direction how it will be and flow.*/
+            justify-content: space-evenly;
+            /* Align items -> to align the elements to specific content direction */
+            align-items: baseline;
+            /* 
+            1. we can adjust elements/objects in which way we need 
+            justify-content: flex-start; -> by default it will the same
+            align-items: flex-start;
+            2. justify-content:flex-end;
+                align-items:flex-end;
+            3. justify-content:flex-end;
+                align-items:center;
+            We can do so on..
+            */
+        }
+
+        .child {
+            background: yellow;
+            height: 200px;
+            width: 200px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+</body>
+
+</html>

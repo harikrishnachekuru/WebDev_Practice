@@ -1,0 +1,67 @@
+Javascript is a scripting/programming language -> A client side scripting language./Server side lang , It is multi purpose 
+
+Which uses clients browser /browser so, it is considered as client side.
+
+In 2009 Ryan Dahl created node.js (Environment for running Javascript).
+
+We can also write server side scripts
+
+Client side JS also considered as DOM manipulation language.
+
+
+Java script is an high-level-language and its an 
+ ->machine independent language, 
+ ->interpreter programming language,
+ ->light-weight.
+ ->case-sensitive.
+
+it is an object oriented programming language.
+
+java script is an untyped language.
+
+it is an functional based interaction
+
+___ROLE OF JS____
+
+** javscript is which is often known as JS, is a high-level dynamic interpreted programming language.
+** It allows client-side scripting to create completely dynamic web applications and websites.
+
+
+
+
+
+Scripting VS programming 
+
+-> Which are compiled are called programing language.
+-> which are enterpreted are called scripting language.
+
+DOM (Document Object Model)
+It creates a tree form/reads the code by structure as <html><head></head><body></body></html>
+We can only see code not a structure how it reads.
+
+DOM MANIPULATION :
+-> It can change everything/manipulate the things from client side.
+
+Variable :
+A temparary Memory location where we store the data.
+We just assign value to variable and that will be stored.
+ex : a = 2;
+
+data types :
+var - variant 
+
+
+
+
+
+
+
+String.Includes -> Here it matches the stored variable and gets/verifies the availablity of the string.
+ex: 
+var s= "HackerRank";
+// Here it verify the string with availability of charecter or string data.
+console.log(s.includes("hack")+ " " + s.includes("Hack"));  
+//Output of above is false true
+//The below get the false true
+//As which it is comparing the quotations as well
+console.log(s.includes() + " " + s.includes(""));

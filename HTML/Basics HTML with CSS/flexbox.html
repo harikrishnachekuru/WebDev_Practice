@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .layoutexmple {
+            /* Display the layout using flex which arranges what needed to fit the elament */
+            display: flex;
+            /* We can also give direct directions to flex as 
+            flex-direction : column;
+            */
+        }
+
+        .layoutexmple div {
+            /* It shows that the class with layoutexmple which contains div sould be allowed with the changes..
+            Based on the flex-direction attribute some of the styles will be replaced
+            ex: flex-direction: row -> then if we apply flex-basis: 300px; then here width if already given that will be replaced with flex-basis.
+            flex-direction: column -> then if we apply flex-basis: 300px; then here height if already given that will be replaced with flex-basis.
+            */
+            background: red;
+            height: 90px;
+            width: 200px;
+            flex-basis: 344px;
+            border: 2px solid black;
+            margin: 10px;
+        }
+
+        .first {
+            /* By default flex can have the shrinking effect/capability based on the browser alignment it will be shrinked but we can also stop/adjust it as follows.Expect this element the other elements will be shrinked. */
+            flex-shrink: 1;
+        }
+
+        /* Flex-grow behavior is quite opposite to flex-shrink behavior in the shrink it shrinks the element and adjusts it accordingly but for flex-grow behavior it shuld increases the size of the element
+        ex: #box1{
+            flex-grow: 1;
+        }
+        */
+    </style>
+</head>
+
+<body>
+    <div class="layoutexmple">
+        <div class="first"></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+
+</html>

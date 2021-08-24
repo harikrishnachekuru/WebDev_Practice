@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Default template</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        section {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        section img {
+            height: 300px;
+            width: 520px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        nav ul li {
+            padding: 5px;
+            margin: 2px;
+        }
+
+        nav,
+        footer {
+            flex-shrink: 0;
+        }
+
+        .footItems {
+            display: flex;
+            padding: 4px;
+            background: rgb(226, 223, 223);
+        }
+
+        .lowItems {
+            display: flex;
+            justify-content: space-between;
+            background: rgb(226, 223, 223);
+        }
+
+        .lowItems .left {
+            display: flex;
+            flex-direction: row;
+            padding: 5px;
+        }
+
+        .lowItems .left li,
+        .lowItems .right li {
+            margin: 5px;
+        }
+
+        .lowItems .right {
+            display: flex;
+            flex-direction: row;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>Gmail</li>
+            <li>Images</li>
+        </ul>
+    </nav>
+    <section>
+        <div>
+            <img
+                src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/streams/2013/March/130326/1C6639340-google-logo.jpg">
+        </div>
+        <div>Langs</div>
+    </section>
+    <footer>
+        <div class="footItems">India</div>
+        <div class="lowItems">
+            <ul class="left">
+                <li>About</li>
+                <li>Advertising</li>
+                <li>Bussines</li>
+                <li>How serches works</li>
+            </ul>
+            <ul class="right">
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

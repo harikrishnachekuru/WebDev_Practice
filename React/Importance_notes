@@ -1,0 +1,37 @@
+Why should we import react in every component is 
+ -> If you are using the Jsx elements so, we should import react in your component.
+ -> If you wont import react in your component then you get an error As
+  "React must be scope when you are using the Jsx"
+
+***
+In Ecma_script-5 we use  to create variable and using 
+ -> Var , let  
+    it is for importing the variable in the react application
+
+In Ecma_script-6 we use importing the variable as 
+ -> using import __ from " ";
+
+***
+Jsx means JavaScript Xml
+ -> In here the code the jsx refers to the code that to represented which is used inside the render function
+  As format of Html.
+ -> for example: 
+        ReactDOM.render(
+            <h1>Hello</h1> ("here it is an Html element that which refers as jsx element in reactjs")
+            );
+
+***
+in the babel how it works
+-> ReactDom.render( React.createElement("h1", null, "Hello world"),
+                    document.getElementById("root"));
+
+***
+In pure javascript
+-> var h2 = document.createElement("h2");
+    h2.innerHTML = "Hello world";
+    document.getElementById("root").appendChild(h2);
+you to connect with the root element
+
+
+***
+We need definetely use <ReactRender></ReactRender>

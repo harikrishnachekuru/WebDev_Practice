@@ -1,0 +1,29 @@
+React js is an javascript libruary for building user interface.
+
+React Js is not an framework. React js a javascript libruary.
+
+
+It was designed by JORDEN WALKE he is an software employee at facebook.
+it was deployed in 2011 and it made to open-source at js conference in 2013.
+
+
+React :
+
+ *It is an component based approach (Architecture).
+  	-> A component is one of the core building blocks of React.
+     	->In common words it is can be devided into pieces and it is 	called Components.
+ *It is an declarative approach
+ 	 -> Declarative programming is a paradiagram 
+ *Dom updates can be easily handled gracefully
+ *Reusable code 
+ *It is just designed for speed to implement complicated applications and simplicity and the scalability.
+
+
+JSX - Javascript Syntax Extension
+
+
+We have
+1. Class based components
+2. Function based components
+
+

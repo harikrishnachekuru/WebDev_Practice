@@ -1,0 +1,14 @@
+Simple ways of implementing showcasing hello world in the browser is 
+
+-> First we can directly inside of the root folder 
+
+-> the second way is making a part of index.js as well
+        -> ReactDom.render( <h1>Hello World</h1> ,
+        document.getElementById( "root" ));
+
+        -> Here in the render part the process how its working is 
+            -> ReactDom.render( "What do you want to" , "Where do you want to" , "Callback function")
+-> we can also make this as making a saperate component.
+    -> In the component we just include all the needed part to be implemented in the code below
+     -> call the same as function in the render function as supposed to combine within the same component
+    

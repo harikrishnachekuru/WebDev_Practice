@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>marque checking..</title>
+</head>
+
+<body>
+    <h1>Hey It is just for checking of marque to get some better info.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, odit reiciendis dolores ipsum blanditiis debitis
+        magni amet porro voluptas labore dignissimos cupiditate iste, sit nulla. Dolor nemo nisi impedit, non sequi
+        eaque!</p>
+    <marquee direction="up" height="100" width="200" bgcolor="red" color="white">
+        <h1>Html</h1>
+        <h2>Css</h2>
+        <h3>JavaScript</h3>
+        <h4>ReactJS</h4>
+        <h5>NodeJS</h5>
+        <h6>MongoDB</h6>
+    </marquee>
+
+    <marquee direction="up" height="100" width="200" bgcolor="red">Scrolling text</marquee>
+    <div>
+        <a href="https://github.com/harikrishnachekuru" target="_blank">It's my github repo home page</a>
+
+        <!-- Without using controls in video tag it just be displayed as image 
+If we give controls then the video will be allowed to play..! -->
+        <video controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4">
+        </video>
+
+        <!-- Form will have parameters of method and action 
+1.method - which is of operation to perform weather to get the data/posting the data etc...
+2. Action - it is the process that after submiting the required information it will show the path where to go after submit. -->
+
+        <form>
+            Date picking..
+            <input type="datetime-local">
+            File uploading ..
+            <input type="file">
+            Date
+            <input type="date">
+            color picker
+            <input type="color">
+            email
+            <input type="email" required>
+            submit button
+            <input type="submit">
+        </form>
+        <!-- Method that performs valid operation get has getting the data an whch it will display the data to url but post method won't allow the details appear on the url.. -->
+        <form method="POST" action="/register">
+            <input type="text" name="userName" required>
+            <input type="email" name="my_user_emails" required>
+            <input type="submit">
+        </form>
+        <div>
+            <!-- Practice form with placeholder in it  -->
+            <form>
+                <input type="text" name="username" placeholder="Please Enter Username">
+                <label>
+                    <input type="radio" name="male-female" checked>Male
+                </label>
+                <label>
+                    <input type="radio" name="male-female">Female
+                </label>
+                <label>
+                    <input type="checkbox" name="personality" checked>Loving
+                </label>
+                <label>
+                    <input type="checkbox" name="personality">Lazy
+                </label>
+                <label>
+                    <input type="checkbox" name="personality">Boring
+                </label>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

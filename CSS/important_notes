@@ -1,0 +1,2 @@
+Display : 
+inline -> We can't assign width,height,padding,margin. It will automatically set based on the content of the element

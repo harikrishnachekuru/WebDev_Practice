@@ -1,0 +1,117 @@
+<!-- Table creation,colspan's, rowspan's etc... -->
+<style>
+    table,
+    thead,
+    tr,
+    th,
+    td {
+        border: 1px solid black;
+        border-radius: 15px 1px;
+    }
+</style>
+
+<table>
+    <thead>
+        <tr>
+            <th>Col 1</th>
+            <th>Col 2</th>
+            <th>Col 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Hey</td>
+            <td>BUDDY</td>
+            <td>WELCOME</td>
+        </tr>
+        <tr>
+            <td>World</td>
+            <td>Nature</td>
+            <td>Beauty</td>
+        </tr>
+        <tr>
+            <td>Reality</td>
+            <td>Mostly</td>
+            <td>Harsley</td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- Time to apply colspan,rowspan -->
+<h1>New practice</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Col 1</th>
+            <th>Col 2</th>
+            <th>Col 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2" align="center">Hey</td>
+            <td>BUDDY</td>
+        </tr>
+        <tr>
+            <td rowspan="2">World</td>
+            <td>Nature</td>
+            <td>Beauty</td>
+        </tr>
+        <tr>
+            <td>Reality</td>
+            <td>Mostly</td>
+        </tr>
+        <tr>
+            <td>Normal</td>
+            <td>Crazy</td>
+            <td>Reason</td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- School Time Table example  -->
+
+<h1>School Time Table</h1>
+
+<table>
+    <thead>
+        <tr align="center">
+            <th>Period & Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednsday</th>
+            <th>Thusday</th>
+            <th>Friday</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr align="center">
+            <td>1st Period</td>
+            <td rowspan="2">English</td>
+            <td></td>
+        </tr>
+        <tr align="center">
+            <td>2nd Period</td>
+            <td rowspan="4">English</td>
+            <td></td>
+        </tr>
+        <!-- <tr>
+            <td colspan="2" align="center">Hey</td>
+            <td>BUDDY</td>
+        </tr> -->
+        <tr>
+            <td rowspan="2">World</td>
+            <td>Nature</td>
+            <td>Beauty</td>
+        </tr>
+        <tr>
+            <td>Reality</td>
+            <td>Mostly</td>
+        </tr>
+        <tr>
+            <td>Normal</td>
+            <td>Crazy</td>
+            <td>Reason</td>
+        </tr>
+    </tbody>
+</table>
